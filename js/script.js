@@ -1,5 +1,5 @@
 /**
- * @author Sarthak Jain <sarthak240498@gmail.com>
+ * @author Amrudesh <amrudesh47@gmail.com>
  */
 (function ($) {
     "use strict";
@@ -30,7 +30,7 @@ function pauseAudio() {
 };
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 14, 2021 00:00:00").getTime();
+var countDownDate = new Date("Apr 3, 2022 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -55,7 +55,7 @@ var x = setInterval(function() {
         clearInterval(x);
         document.getElementById("time").innerHTML = "Wedding Completed !!";
         // document.getElementById("time").innerHTML = " See The best Captured Moments ";
-        // document.getElementById("time").href = "https://photos.app.goo.gl/Wn9PRK7FMpxBKF5s6/";
+        // document.getElementById("time").href = "FILL WITH GOOGLE PHOTOS LINK/";
         // document.getElementById("time").target = "_blank";
     }
 }, 1000);
@@ -94,7 +94,7 @@ var styles2 = [
 
 console.log('\n\n%c SAVE THE DATE: 14th Feb, 2021', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Sarthak Jain', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Amrutha', styles1, styles2);
 
 console.log(
     `%c शादी में जलूल जलूल आना होगा \n\n`,
