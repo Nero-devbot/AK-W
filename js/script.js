@@ -50,6 +50,16 @@ var x = setInterval(function() {
     // Output the result in an element with id="demo"
     document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
     
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("time").innerHTML = "Wedding Completed !!";
+        // document.getElementById("time").innerHTML = " See The best Captured Moments ";
+        // document.getElementById("time").href = "FILL WITH GOOGLE PHOTOS LINK/";
+        // document.getElementById("time").target = "_blank";
+    }
+}, 1000);
+
 // being a bit cool :p  
 var styles = [
     'background: linear-gradient(#D33106, #571402)'
