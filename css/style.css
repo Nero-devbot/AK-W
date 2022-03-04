@@ -361,13 +361,13 @@ img {
 
 @media (max-width:900px) {
 	.imgi {
-		max-width: 20%;
+		max-width: 30%;
 	}
 	.top-right-decoration {
-		max-width: 20%;
+		max-width: 30%;
 	}
 	.top-left-decoration {
-		max-width: 20%;
+		max-width: 30%;
 	}
 }
 
@@ -390,7 +390,7 @@ img {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 65px;
-	margin: 20px 0;
+	margin: auto;
 	color: #674ea7;
 	padding: 10px;
 
