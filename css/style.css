@@ -361,13 +361,13 @@ img {
 
 @media (max-width:900px) {
 	.imgi {
-		max-width: 30%;
+		max-width: 20%;
 	}
 	.top-right-decoration {
-		max-width: 30%;
+		max-width: 20%;
 	}
 	.top-left-decoration {
-		max-width: 30%;
+		max-width: 20%;
 	}
 }
 
