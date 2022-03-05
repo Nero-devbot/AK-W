@@ -4,18 +4,18 @@
 		top: 0
 	}
 	100% {
-		opacity: 0.2;
+		opacity: 0.9;
 		top: 100%
 	}
 }
 
 @keyframes fall {
 	0% {
-		opacity: 0.9;
+		opacity: 0.6;
 		top: 0
 	}
 	100% {
-		opacity: 0.2;
+		opacity: 0.5;
 		top: 100%
 	}
 }
@@ -351,7 +351,7 @@
 /*******************************/
 
 body {
-	font-family: Arial, Helvetica, Sans-serif;
+	font-family: Flaemische Kanzleischrift,'cursive';
 }
 
 img {
@@ -385,49 +385,50 @@ img {
 	display: block;
 }
 
-.title h1 {
-	font-family: 'Dancing Script', cursive;
-	font-weight: bold;
+.title h1 { /*amrutha*/
+	font-family:'Flaemische Kanzleischrift';
+	font-weight: normal ;
 	font-style: normal;
 	font-size: 65px;
 	margin: 30px 0;
-	color: #674ea7;
+	color: #D94773;
 	padding: 10px;
 
 }
 
-.title h2 {
-	font-family: 'Dancing Script', cursive;
+.title h2 { /*&*/
+	font-family: 'Flaemische Kanzleischrift';
 	font-weight: bold;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
-	font-size: 24px;
-	color: #e25c67;
+	font-size: 50px;
+	color: #D94773;
 	line-height: 1;
 }
 
-.dance-med {
-	font-family: 'Dancing Script', cursive;
+.Get-There {
+	font-family: 'Flaemische Kanzleischrift';
 	font-weight: bolder;
 	font-style: normal;
-	font-size: 32px;
-	color: #674ea7;
+	font-size: 15px;
+	color: #D94773;
 	margin: 16px;
 	text-align: center;
 }
 
-.title h3 {
-	font-weight: 300;
+.title h3 { 
+	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 24px;
-	color: #674ea7;
+	font-size: 16px;
+	color: #2C6975;
 	margin-top: 5px;
 }
 
-.title p {
-	color: #564861;
+.title p { /* Together...*/
+  font-family: 'Flaemische Kanzleischrift';
+	color: #2C6975;
 	margin: 30px 0 20px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -451,10 +452,10 @@ img {
 
 /** **/
 
-* {
+* { /*together*/
 	/* margin: 0;
     padding: 0; */
-	font-family: 'Arvo', serif;
+	font-family: Flaemische Kanzleischrift;
 }
 
 body {
@@ -482,7 +483,7 @@ body {
 .venue {
 	width: auto;
 	height: auto;
-	background-color: #674ea7;
+	background-color: #2F9599;
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
@@ -492,7 +493,7 @@ body {
 
 .venue a {
 	text-decoration: none;
-	color: #fff;
+	color: #D94773;
 }
 
 .container {
@@ -502,7 +503,7 @@ body {
 	overflow: hidden;
 }
 
-.block {
+.block { /*clock font*/
 	width: 180px;
 	height: 160px;
 	display: flex;
@@ -519,29 +520,29 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
+	background: linear-gradient(90deg, #F8B195, #F8B195);
 }
 
 .hours {
-	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+	background: linear-gradient(90deg, #F67280, #F67280);
 }
 
 .minutes {
-	background-color: #874562;
+	background-color: #C06C84;
 }
 
 .seconds {
-	background-color: #145689;
+	background-color: #6C5B7B;
 }
 
 .date {
-	color: #874562;
-	font-weight: 900;
+	color:#2C6975;
+	font-weight: 300;
 }
 
 .place {
-	color: #874562;
-	font-weight: 900;
+	color: #2C6975;
+	font-weight: 300;
 }
 
 .footer {
@@ -568,14 +569,17 @@ body {
 
 a {
 	text-decoration: none;
+  color: #D94773;
 }
 
-.happiness {
-	color: #874562;
+.happiness { /* join us*/
+	color: #D94773;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 10px;
+  
+  
 }
 
 .twitter {
@@ -620,11 +624,12 @@ a {
 		height: 100%;
 	}
 
-	.block{
+	.block{ /*clock*/
 	width: 90px;
 	height: 80px;
 	/* display: grid; */
 	font-size: 16px;
+   
 	}
 
   }
@@ -657,7 +662,6 @@ a {
 	width: 75px;
 	height: 65px;
 	/* display: grid; */
-	
 	font-size: 12px;
 	}
 
@@ -746,7 +750,7 @@ a {
   }
 
 
-  blockquote {
+  blockquote { /* presents in..*/
 	position: relative;
 	padding-left: 30px;
 	font-weight: 600;
@@ -756,11 +760,11 @@ a {
 	margin-left: 2.25em;
 	margin-right: 0.2em;
 	max-width: 35em;
-	font-size: 15px;
+	font-size: 10px;
   }
   blockquote::before {
 		content: "“";
-		font-family: serif;
+		font-family: Flaemische Kanzleischrift;
 		position: absolute;
 		right: 100%;
 		font-size: 75px;
@@ -803,4 +807,5 @@ a {
 		  transform: rotate(13deg) scale(1.25);
 		}
 	  }
+
 
